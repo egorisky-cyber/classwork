@@ -1,0 +1,23 @@
+*{
+
+}
+.container{
+    display: grid;
+    grid-template-columns: 90px 90px 90px 90px;
+    grid-template-rows: 90px 90px 90px 90px;
+    grid-gap: 10px 20px;
+    padding: 0 181px;
+}
+.grid-container{
+    border: 6px solid pink;
+    display: grid;
+    background-color: pink;
+    justify-items: center;
+
+}
+.grid-item{
+    border: 6px solid grey;
+    display: grid;
+    background-color: gray;
+    justify-items: center;
+}
